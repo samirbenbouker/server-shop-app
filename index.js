@@ -50,6 +50,6 @@ app.use("/api/checkout", stripeRoute)
 
 // Api run the localhost port 5000
 app.listen(5000, () => {
-    console.log(`Server in http://localhost:${5000}`)
+    console.log(`Server in https://server-shop-app.herokuapp.com`)
 })
 
