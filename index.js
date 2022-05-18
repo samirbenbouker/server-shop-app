@@ -14,7 +14,6 @@ const path = require("path")
 
 const {
     MONGO_URL,
-    PORT,
     NODE_ENV
 } = require("./env")
 
@@ -50,7 +49,7 @@ app.use("/api/orders", orderRoute)
 app.use("/api/checkout", stripeRoute)
 
 // Api run the localhost port 5000
-app.listen(PORT || 5000, () => {
+app.listen(5000, () => {
     console.log(`Server in http://localhost:${5000}`)
 })
 
