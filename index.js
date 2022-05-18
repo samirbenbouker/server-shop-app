@@ -31,10 +31,6 @@ mongoose
 app.use(cors())
 app.use(express.json())
 
-app.use("/", (req, res) => {
-    res.json({message: "API ON"})
-})
-
 // auth endpoint
 app.use("/api/auth", authRoute)
 // users endpoint
