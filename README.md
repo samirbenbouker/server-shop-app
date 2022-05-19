@@ -6,7 +6,7 @@ Este repositorio contiene la API que permitirá realizar conexiones con nuestro 
 
 Nota: Los parámetros de los endpoints utilizan el principio de las URL Query: `?param=value`
 
-## env.js File
+## File env.js 
 Crear un fichero en la raiz del proyecto `env.js` que contendra la siguiente información:
 - `MONGO_URL`: "url de la base de datos mongo"
 - `PORT`: 5000
