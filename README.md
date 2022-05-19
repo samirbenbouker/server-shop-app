@@ -6,6 +6,16 @@ Este repositorio contiene la API que permitirá realizar conexiones con nuestro 
 
 Nota: Los parámetros de los endpoints utilizan el principio de las URL Query: `?param=value`
 
+## env.js File
+Crear un fichero en la raiz del proyecto `env.js` que contendra la siguiente información:
+- `MONGO_URL`: "url de la base de datos mongo"
+- `PORT`: 5000
+- `JWT_SEC`: "clave para la encriptacion para el Token de la aplicación"
+- `PASS_ENC`: "clave para la encriptacion para el Token de la aplicación"
+- `NODE_ENV`: "production"
+
+Al final hacer module.export = {MONGO_URL, PORT, JWT_SEC, PASS_ENC, NODE_ENV}
+
 ## Endpoints:
 
 #### Auth
