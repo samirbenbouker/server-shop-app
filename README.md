@@ -14,7 +14,7 @@ Crear un fichero en la raiz del proyecto `env.js` que contendra la siguiente inf
 - `PASS_ENC`: "clave para la encriptacion para el Token de la aplicación"
 - `NODE_ENV`: "production"
 
-Al final hacer module.export = {MONGO_URL, PORT, JWT_SEC, PASS_ENC, NODE_ENV}
+Al final hacer `module.export = {MONGO_URL, PORT, JWT_SEC, PASS_ENC, NODE_ENV}`
 
 ## Endpoints:
 
